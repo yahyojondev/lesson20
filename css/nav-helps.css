@@ -1,0 +1,104 @@
+.navbar-shrink {
+  height: 75px;
+  -webkit-box-shadow: 0PX 0PX 5PX 5PX gray;
+          box-shadow: 0PX 0PX 5PX 5PX gray;
+}
+
+#backtop {
+  position: fixed;
+  right: 50px;
+  bottom: -60px;
+  z-index: 1;
+  border-radius: 10px;
+  background-color: transparent;
+  background-color: #77B2D3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#backtop a {
+  display: block;
+  padding: 15px 10px;
+}
+
+#backtop.backtop-show {
+  bottom: 50px;
+}
+
+.dark * {
+  background-color: black;
+}
+
+.dark * {
+  color: white !important;
+}
+
+#mode-btn {
+  background-color: transparent;
+}
+
+.mode__img {
+  width: 40px;
+  height: 40px;
+}
+
+#navbar-responsive {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 10;
+  gap: 50px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100vh;
+  background: #77B2D3;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar__toogle__item {
+  padding: 15px 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Manrope;
+  background: var(--3, linear-gradient(115deg, #F32C6D 10.12%, #CB1D95 100.01%));
+}
+
+.navbar__toogle__item a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#navbar-close {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  background-color: transparent;
+}
+
+#navbar-close img {
+  width: 35px;
+  height: 35px;
+}
+
+#navbar-open {
+  background-color: transparent;
+}
+
+#navbar-open img {
+  width: 40px;
+  height: 40px;
+}

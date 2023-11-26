@@ -1,0 +1,60 @@
+//  header star 
+
+header {
+    padding: 7px 0px 8px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 85px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+    transition: 0.5s;
+}
+
+.navbar {
+    @include ds_al_js();
+
+    &__img {
+        width: 100%;
+    }
+
+    &__list {
+        @include ds_al();
+        gap: 20px;
+        @media(min-width:300px){
+            display: none;
+        }
+        @media(min-width:1000px){
+            display: flex;
+        }
+    }
+
+    &__btn {
+        padding: 14px 33px 14px 42px;
+        margin-left: 159px;
+        max-width: 205px;
+        height: 54px;
+        color: #FFF;
+        background: var(--3, linear-gradient(115deg, #F32C6D 10.12%, #CB1D95 100.01%));
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        flex-shrink: 0;
+        border-radius: 9px;
+    }
+    &__link {
+            color: #333;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+    
+        } 
+
+}
+
+
+
+//  header end 

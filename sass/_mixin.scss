@@ -1,0 +1,13 @@
+@function containerWidth($width,$padding,$mobilepadding){
+    @return $width - 2 * $padding + 2 * $mobilepadding + px;
+}
+@mixin ds_al {
+    display:flex;
+    align-items: center;
+}
+
+@mixin ds_al_js {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
